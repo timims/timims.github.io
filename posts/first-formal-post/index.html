@@ -1,0 +1,235 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>我的技术博客正式开始了 | aurora</title><meta name="author" content="aurora"><meta name="copyright" content="aurora"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f1e7"><meta name="description" content="这篇文章用于说明博客的定位、写作范围以及后续准备持续输出的内容方向。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我的技术博客正式开始了">
+<meta property="og:url" content="https://timims.github.io/posts/first-formal-post/">
+<meta property="og:site_name" content="aurora">
+<meta property="og:description" content="这篇文章用于说明博客的定位、写作范围以及后续准备持续输出的内容方向。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://timims.github.io/img/index-banner.svg">
+<meta property="article:published_time" content="2026-04-16T09:35:00.000Z">
+<meta property="article:modified_time" content="2026-04-19T06:43:17.862Z">
+<meta property="article:author" content="aurora">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="记录">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://timims.github.io/img/index-banner.svg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "我的技术博客正式开始了",
+  "url": "https://timims.github.io/posts/first-formal-post/",
+  "image": "https://timims.github.io/img/index-banner.svg",
+  "datePublished": "2026-04-16T09:35:00.000Z",
+  "dateModified": "2026-04-19T06:43:17.862Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "aurora",
+      "url": "https://github.com/timims"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/avatar.svg"><link rel="canonical" href="https://timims.github.io/posts/first-formal-post/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.5-b1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#1d1811')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f1e7')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":true,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":360,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '我的技术博客正式开始了',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css"><meta name="generator" content="Hexo 8.1.1"></head><body><div class="bg-animation" id="web_bg"></div><script>(() => {
+  const arr = ["background: linear-gradient(135deg, #f7f1e7 0%, #efe3cb 48%, #fffaf2 100%);"]
+  const webBgDiv = document.getElementById('web_bg')
+
+  const setRandomBg = () => {
+    webBgDiv.style = arr[Math.floor(Math.random() * arr.length)]
+    requestAnimationFrame(() => webBgDiv.classList.add('bg-animation'))
+  }
+
+  document.addEventListener('pjax:send', () => {
+    webBgDiv.style = ''
+    webBgDiv.classList.remove('bg-animation')
+  })
+
+  document.addEventListener('pjax:complete', setRandomBg)
+  document.addEventListener('DOMContentLoaded', setRandomBg)
+})()
+</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.svg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-house"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-box-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-tree"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url(/img/index-banner.svg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">aurora</span></a><a class="nav-page-title" href="/"><span class="site-name">我的技术博客正式开始了</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-house"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-box-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-tree"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">我的技术博客正式开始了</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-04-16T09:35:00.000Z" title="发表于 2026-04-16 17:35:00">2026-04-16</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-04-19T06:43:17.862Z" title="更新于 2026-04-19 14:43:17">2026-04-19</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%B7%A5%E7%A8%8B/">工程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">608</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>过去我在学习和工作中积累了不少和数据库、后端、系统环境有关的经验，但很多内容都分散在命令行历史、笔记软件和临时聊天里，复用效率并不高。</p>
+<p>我希望有一个稳定、低成本、可长期维护的地方，把这些工程实践沉淀下来。相比临时笔记，博客更适合形成完整文章，也更适合长期检索和回顾。</p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>技术积累如果没有结构化输出，通常会遇到几个问题：</p>
+<ol>
+<li>同一个问题过一段时间还要重新查一遍。</li>
+<li>一次解决的经验没有被抽象成通用方法。</li>
+<li>遇到复杂问题时，很难回溯当时的背景、原因和取舍。</li>
+</ol>
+<p>对我来说，真正有价值的内容不是零散结论，而是完整的问题处理过程。</p>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>这个博客会坚持工程实践导向，重点记录下面几个方向：</p>
+<h3 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h3><ul>
+<li>TimescaleDB 的使用经验</li>
+<li>PostgreSQL 查询、索引与性能分析</li>
+<li>实际业务场景中的时序数据建模</li>
+</ul>
+<h3 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h3><ul>
+<li>Java 服务开发中的设计与优化</li>
+<li>接口治理、并发处理与性能问题定位</li>
+<li>常见工程问题的解决思路</li>
+</ul>
+<h3 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h3><ul>
+<li>Arch Linux 环境配置</li>
+<li>开发工具链问题排查</li>
+<li>本地开发、部署和脚本自动化经验</li>
+</ul>
+<h3 id="工程实践"><a href="#工程实践" class="headerlink" title="工程实践"></a>工程实践</h3><ul>
+<li>项目部署流程</li>
+<li>架构演进中的取舍</li>
+<li>真实踩坑记录与复盘总结</li>
+</ul>
+<p>为了保证内容质量，我后续的文章会尽量遵循统一结构：</p>
+<ol>
+<li>背景</li>
+<li>问题</li>
+<li>解决方案</li>
+<li>结果</li>
+<li>总结</li>
+</ol>
+<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>目前博客已经完成了基础搭建，包含以下能力：</p>
+<ul>
+<li>基于 Hexo 和 Butterfly 主题</li>
+<li>支持分类、标签、归档和本地搜索</li>
+<li>使用 GitHub Pages 托管</li>
+<li>使用 GitHub Actions 自动部署</li>
+</ul>
+<p>这意味着后续我只需要专注于写文章，而不需要把精力放在额外的服务维护上。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这篇文章算是这个博客的正式开始。</p>
+<p>后续我会优先发布这些主题的内容：</p>
+<ol>
+<li>TimescaleDB 与 PostgreSQL 的实践记录</li>
+<li>Java 后端开发中的性能与工程问题</li>
+<li>Arch Linux 和开发环境相关的踩坑经验</li>
+</ol>
+<p>如果一篇文章能让未来的我少排查一次问题，那它就已经有价值了。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a target="_blank" rel="noopener" href="https://github.com/timims">aurora</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://timims.github.io/posts/first-formal-post/">https://timims.github.io/posts/first-formal-post/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://timims.github.io" target="_blank">aurora</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a><a class="post-meta__tags" href="/tags/Hexo/">Hexo</a><a class="post-meta__tags" href="/tags/%E8%AE%B0%E5%BD%95/">记录</a></div><div class="post-share"><div class="social-share" data-image="/img/index-banner.svg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/posts/thread-questions/" title="高并发遥测数据查询结构"><img class="cover" src="/img/index-banner.svg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">高并发遥测数据查询结构</div></div><div class="info-2"><div class="info-item-1">高并发遥测查询架构演进：从 Java 端 Future 聚合到 Kafka 端收齐摘要在多并发高频遥测查询场景下，我们最初采用了“Java 端并行查询 + CompletableFuture.join() 聚合 + 统一发送 Kafka”的方案。该方案实现直接、可读性好，但在并发升高后出现了明显的资源竞争和尾延迟放大。  本文复盘现状实现，分析瓶颈，并给出一套可落地的演进路径：子查询完成后立即发送 Kafka，将收齐与聚合下沉到消息消费端。核心结论是：这条路可行，但必须同时补齐幂等、超时补偿、状态追踪和可观测性。  1. 背景：为什么要改我们的分析任务经常是“一个父任务 + 多个传感器子查询”。例如一个场景下 20 个传感器，就会拆成 20 个并行子任务。  当多个父任务同时提交时，问题开始显现：  子任务数量快速膨胀，线程池和数据库连接池竞争激烈。   父任务需要等待所有子任务 join() 后才能进入下一步，尾延迟受最慢子任务影响。  3. Java 端聚合结果容器变大，内存压力上升。  这推动我们思考：  能不能实现“查完即发”，不在 Java 端做大聚合？  2. 现状方...</div></div></div></a><a class="pagination-related" href="/posts/hello-engineering-blog/" title="我的技术博客开始了"><img class="cover" src="/img/index-banner.svg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">我的技术博客开始了</div></div><div class="info-2"><div class="info-item-1">背景我希望把日常的数据库、后端、系统和部署问题沉淀成结构化文章，而不是散落在聊天记录和命令历史里。 问题技术经验如果只停留在一次性解决，很难复用，也不利于后续总结。 解决方案这个博客会围绕四个方向持续写作：  数据库：TimescaleDB、PostgreSQL、索引与查询优化。 后端：Java 服务设计、性能分析、接口治理。 系统：Arch Linux、环境配置、工具链问题。 工程：部署流程、架构演进、踩坑复盘。  结果现在博客已经具备基础的文章、分类、标签、归档和搜索能力，可以直接开始写作。 总结后续每篇文章都会尽量保持统一结构：背景、问题、解决方案、结果、总结。 </div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/posts/hello-engineering-blog/" title="我的技术博客开始了"><img class="cover" src="/img/index-banner.svg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-04-16</div><div class="info-item-2">我的技术博客开始了</div></div><div class="info-2"><div class="info-item-1">背景我希望把日常的数据库、后端、系统和部署问题沉淀成结构化文章，而不是散落在聊天记录和命令历史里。 问题技术经验如果只停留在一次性解决，很难复用，也不利于后续总结。 解决方案这个博客会围绕四个方向持续写作：  数据库：TimescaleDB、PostgreSQL、索引与查询优化。 后端：Java 服务设计、性能分析、接口治理。 系统：Arch Linux、环境配置、工具链问题。 工程：部署流程、架构演进、踩坑复盘。  结果现在博客已经具备基础的文章、分类、标签、归档和搜索能力，可以直接开始写作。 总结后续每篇文章都会尽量保持统一结构：背景、问题、解决方案、结果、总结。 </div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.svg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">aurora</div><div class="author-info-description">聚焦 TimescaleDB、Java、Linux 与工程问题</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" href="/about/"><i class="fas fa-arrow-right"></i><span>查看关于页</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/timims" target="_blank" title="GitHub"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:2787475460@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #b29a6c;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到工程实践型技术博客，这里记录真实问题和可复用解法。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%83%8C%E6%99%AF"><span class="toc-number">1.</span> <span class="toc-text">背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AE%E9%A2%98"><span class="toc-number">2.</span> <span class="toc-text">问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-number">3.</span> <span class="toc-text">解决方案</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">3.1.</span> <span class="toc-text">数据库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%8E%E7%AB%AF"><span class="toc-number">3.2.</span> <span class="toc-text">后端</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F"><span class="toc-number">3.3.</span> <span class="toc-text">系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5"><span class="toc-number">3.4.</span> <span class="toc-text">工程实践</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%93%E6%9E%9C"><span class="toc-number">4.</span> <span class="toc-text">结果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">5.</span> <span class="toc-text">总结</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/thread-questions/" title="高并发遥测数据查询结构"><img src="/img/index-banner.svg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="高并发遥测数据查询结构"/></a><div class="content"><a class="title" href="/posts/thread-questions/" title="高并发遥测数据查询结构">高并发遥测数据查询结构</a><time datetime="2026-04-19T06:39:00.000Z" title="发表于 2026-04-19 14:39:00">2026-04-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/first-formal-post/" title="我的技术博客正式开始了"><img src="/img/index-banner.svg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="我的技术博客正式开始了"/></a><div class="content"><a class="title" href="/posts/first-formal-post/" title="我的技术博客正式开始了">我的技术博客正式开始了</a><time datetime="2026-04-16T09:35:00.000Z" title="发表于 2026-04-16 17:35:00">2026-04-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/hello-engineering-blog/" title="我的技术博客开始了"><img src="/img/index-banner.svg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="我的技术博客开始了"/></a><div class="content"><a class="title" href="/posts/hello-engineering-blog/" title="我的技术博客开始了">我的技术博客开始了</a><time datetime="2026-04-16T08:30:00.000Z" title="发表于 2026-04-16 16:30:00">2026-04-16</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By aurora</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.5-b1</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.5-b1"></script><script src="/js/main.js?v=5.5.5-b1"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.5-b1"></script></div></div></body></html>

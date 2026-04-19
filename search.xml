@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>我的技术博客正式开始了</title>
+    <url>/posts/first-formal-post/</url>
+    <content><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>过去我在学习和工作中积累了不少和数据库、后端、系统环境有关的经验，但很多内容都分散在命令行历史、笔记软件和临时聊天里，复用效率并不高。</p>
+<p>我希望有一个稳定、低成本、可长期维护的地方，把这些工程实践沉淀下来。相比临时笔记，博客更适合形成完整文章，也更适合长期检索和回顾。</p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>技术积累如果没有结构化输出，通常会遇到几个问题：</p>
+<ol>
+<li>同一个问题过一段时间还要重新查一遍。</li>
+<li>一次解决的经验没有被抽象成通用方法。</li>
+<li>遇到复杂问题时，很难回溯当时的背景、原因和取舍。</li>
+</ol>
+<p>对我来说，真正有价值的内容不是零散结论，而是完整的问题处理过程。</p>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>这个博客会坚持工程实践导向，重点记录下面几个方向：</p>
+<h3 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h3><ul>
+<li>TimescaleDB 的使用经验</li>
+<li>PostgreSQL 查询、索引与性能分析</li>
+<li>实际业务场景中的时序数据建模</li>
+</ul>
+<h3 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h3><ul>
+<li>Java 服务开发中的设计与优化</li>
+<li>接口治理、并发处理与性能问题定位</li>
+<li>常见工程问题的解决思路</li>
+</ul>
+<h3 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h3><ul>
+<li>Arch Linux 环境配置</li>
+<li>开发工具链问题排查</li>
+<li>本地开发、部署和脚本自动化经验</li>
+</ul>
+<h3 id="工程实践"><a href="#工程实践" class="headerlink" title="工程实践"></a>工程实践</h3><ul>
+<li>项目部署流程</li>
+<li>架构演进中的取舍</li>
+<li>真实踩坑记录与复盘总结</li>
+</ul>
+<p>为了保证内容质量，我后续的文章会尽量遵循统一结构：</p>
+<ol>
+<li>背景</li>
+<li>问题</li>
+<li>解决方案</li>
+<li>结果</li>
+<li>总结</li>
+</ol>
+<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>目前博客已经完成了基础搭建，包含以下能力：</p>
+<ul>
+<li>基于 Hexo 和 Butterfly 主题</li>
+<li>支持分类、标签、归档和本地搜索</li>
+<li>使用 GitHub Pages 托管</li>
+<li>使用 GitHub Actions 自动部署</li>
+</ul>
+<p>这意味着后续我只需要专注于写文章，而不需要把精力放在额外的服务维护上。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这篇文章算是这个博客的正式开始。</p>
+<p>后续我会优先发布这些主题的内容：</p>
+<ol>
+<li>TimescaleDB 与 PostgreSQL 的实践记录</li>
+<li>Java 后端开发中的性能与工程问题</li>
+<li>Arch Linux 和开发环境相关的踩坑经验</li>
+</ol>
+<p>如果一篇文章能让未来的我少排查一次问题，那它就已经有价值了。</p>
+]]></content>
+      <categories>
+        <category>工程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>Hexo</tag>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的技术博客开始了</title>
+    <url>/posts/hello-engineering-blog/</url>
+    <content><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>我希望把日常的数据库、后端、系统和部署问题沉淀成结构化文章，而不是散落在聊天记录和命令历史里。</p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>技术经验如果只停留在一次性解决，很难复用，也不利于后续总结。</p>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>这个博客会围绕四个方向持续写作：</p>
+<ol>
+<li>数据库：TimescaleDB、PostgreSQL、索引与查询优化。</li>
+<li>后端：Java 服务设计、性能分析、接口治理。</li>
+<li>系统：Arch Linux、环境配置、工具链问题。</li>
+<li>工程：部署流程、架构演进、踩坑复盘。</li>
+</ol>
+<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>现在博客已经具备基础的文章、分类、标签、归档和搜索能力，可以直接开始写作。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>后续每篇文章都会尽量保持统一结构：背景、问题、解决方案、结果、总结。</p>
+]]></content>
+      <categories>
+        <category>工程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高并发遥测数据查询结构</title>
+    <url>/posts/thread-questions/</url>
+    <content><![CDATA[<h1 id="高并发遥测查询架构演进：从-Java-端-Future-聚合到-Kafka-端收齐"><a href="#高并发遥测查询架构演进：从-Java-端-Future-聚合到-Kafka-端收齐" class="headerlink" title="高并发遥测查询架构演进：从 Java 端 Future 聚合到 Kafka 端收齐"></a>高并发遥测查询架构演进：从 Java 端 Future 聚合到 Kafka 端收齐</h1><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>在多并发高频遥测查询场景下，我们最初采用了“Java 端并行查询 + <code>CompletableFuture.join()</code> 聚合 + 统一发送 Kafka”的方案。该方案实现直接、可读性好，但在并发升高后出现了明显的资源竞争和尾延迟放大。  本文复盘现状实现，分析瓶颈，并给出一套可落地的演进路径：<strong>子查询完成后立即发送 Kafka，将收齐与聚合下沉到消息消费端</strong>。核心结论是：这条路可行，但必须同时补齐幂等、超时补偿、状态追踪和可观测性。</p>
+<hr>
+<h2 id="1-背景：为什么要改"><a href="#1-背景：为什么要改" class="headerlink" title="1. 背景：为什么要改"></a>1. 背景：为什么要改</h2><p>我们的分析任务经常是“一个父任务 + 多个传感器子查询”。例如一个场景下 20 个传感器，就会拆成 20 个并行子任务。  当多个父任务同时提交时，问题开始显现：</p>
+<ol>
+<li>子任务数量快速膨胀，线程池和数据库连接池竞争激烈。  </li>
+<li>父任务需要等待所有子任务 <code>join()</code> 后才能进入下一步，尾延迟受最慢子任务影响。  3. Java 端聚合结果容器变大，内存压力上升。  这推动我们思考：</li>
+</ol>
+<p><strong>能不能实现“查完即发”，不在 Java 端做大聚合？</strong></p>
+<hr>
+<h2 id="2-现状方案复盘"><a href="#2-现状方案复盘" class="headerlink" title="2. 现状方案复盘"></a>2. 现状方案复盘</h2><p>当前链路可以概括为：</p>
+<ol>
+<li>接收父任务请求，生成 <code>task_id</code>。  </li>
+<li>按传感器拆分子查询，使用 <code>CompletableFuture</code> 并行执行。  </li>
+<li>每个子查询写入共享结果容器。  </li>
+<li>父任务 <code>join()</code> 等待所有子查询完成。  </li>
+<li>聚合后发送 Kafka，进入后续算法处理。</li>
+</ol>
+<p>这个方案在低并发下非常稳定，问题主要出现在高并发和大任务同时到达时。</p>
+<hr>
+<h2 id="3-Future-到底是什么"><a href="#3-Future-到底是什么" class="headerlink" title="3. Future 到底是什么"></a>3. <code>Future</code> 到底是什么</h2><p>在这次架构讨论里，这个概念必须统一：</p>
+<ol>
+<li><code>Future</code> 不是线程，它是异步任务的回执对象。  </li>
+<li>任务提交后立即返回 <code>Future</code>，主流程可以先往下走。  </li>
+<li>调用 <code>get()</code> 或 <code>join()</code> 时才会等待任务完成。  </li>
+<li><code>Future</code> 最终要么给结果，要么抛异常。  </li>
+<li><code>CompletableFuture</code> 还支持链式编排，比如 <code>thenApply</code>、<code>thenCompose</code>。</li>
+</ol>
+<hr>
+<h2 id="4-痛点定位"><a href="#4-痛点定位" class="headerlink" title="4. 痛点定位"></a>4. 痛点定位</h2><p>瓶颈不在“并行”，在“收口”并行查询本身没有问题，瓶颈在“父任务同步收口”：</p>
+<ol>
+<li>父任务必须等所有子查询完成，最慢那个决定整体耗时。  </li>
+<li>收口阶段集中占用内存与 CPU。  </li>
+<li>高并发下多个父任务同时收口，放大抖动。<br>所以改造方向不是减少并行，而是把收口位置从 Java 主流程迁移出去。</li>
+</ol>
+<hr>
+<h2 id="5-改造目标：查完即发，Kafka-端收齐"><a href="#5-改造目标：查完即发，Kafka-端收齐" class="headerlink" title="5. 改造目标：查完即发，Kafka 端收齐"></a>5. 改造目标：查完即发，Kafka 端收齐</h2><p>目标链路：</p>
+<ol>
+<li>Java 端子查询完成后立即发送 Kafka，不等待其他子任务。  </li>
+<li>消费端按 <code>task_id</code> 聚合并判定“是否收齐”。  </li>
+<li>收齐后再触发后续算法执行。<br>这样做的收益是：</li>
+<li>Java 端不持有大聚合容器，内存更稳。  </li>
+<li>父任务线程占用时间更短。  </li>
+<li>吞吐更线性，扩展点转移到 Kafka 消费组与状态存储。</li>
+</ol>
+<hr>
+<h2 id="6-协议与状态设计（核心）"><a href="#6-协议与状态设计（核心）" class="headerlink" title="6. 协议与状态设计（核心）"></a>6. 协议与状态设计（核心）</h2><p>要落地这个方案，消息协议必须先定好。建议至少包含：</p>
+<ol>
+<li><code>task_id</code>：父任务唯一标识。  </li>
+<li><code>sensor_id</code>：子任务维度。  </li>
+<li><code>batch_index</code>：分片序号。  </li>
+<li><code>total_batches</code>：总分片数。  </li>
+<li><code>expected_sensors</code>：任务期望传感器数。  </li>
+<li><code>payload</code>：本次查询数据。  </li>
+<li><code>event_time</code>：事件时间戳。<br>收齐判定逻辑：</li>
+<li>对每个 <code>task_id</code> 维护 <code>received(sensor_id, batch_index)</code> 集合。  </li>
+<li>当所有 <code>sensor_id</code> 的分片都满足 <code>0..total_batches-1</code> 时，判定收齐。  </li>
+<li>超过超时窗口未收齐，走部分完成或失败补偿策略。</li>
+</ol>
+<hr>
+<h2 id="7-关键实现建议"><a href="#7-关键实现建议" class="headerlink" title="7. 关键实现建议"></a>7. 关键实现建议</h2><h3 id="7-1-Java-生产端"><a href="#7-1-Java-生产端" class="headerlink" title="7.1 Java 生产端"></a>7.1 Java 生产端</h3><ol>
+<li>子查询完成后直接发送 Kafka。  </li>
+<li>失败可重试，但要带幂等键。  </li>
+<li>不再 <code>join()</code> 全量数据用于业务聚合，只做任务级状态回写。</li>
+</ol>
+<h3 id="7-2-Kafka-消费端"><a href="#7-2-Kafka-消费端" class="headerlink" title="7.2 Kafka 消费端"></a>7.2 Kafka 消费端</h3><ol>
+<li>按 <code>task_id</code> 维护聚合缓存。  </li>
+<li>做去重：<code>task_id + sensor_id + batch_index</code>。  </li>
+<li>收齐后发“任务可执行”事件给算法调度器。</li>
+</ol>
+<h3 id="7-3-状态存储"><a href="#7-3-状态存储" class="headerlink" title="7.3 状态存储"></a>7.3 状态存储</h3><ol>
+<li>轻量可先内存 + TTL。  </li>
+<li>生产建议 Redis，支持多实例共享状态。  </li>
+<li>最终态写回任务表：<code>RUNNING/SUCCESS/FAILED/TIMEOUT</code>。</li>
+</ol>
+<hr>
+<h2 id="8-风险与治理"><a href="#8-风险与治理" class="headerlink" title="8. 风险与治理"></a>8. 风险与治理</h2><p>对于该迁移方案，需要考虑如下问题：</p>
+<ol>
+<li>风险：消息重复。<br>治理：幂等键 + 去重集合。  </li>
+<li>风险：消息乱序。<br>治理：按分片索引判定，不依赖到达顺序。  </li>
+<li>风险：永远收不齐。<br>治理：超时窗口 + 补偿任务 + 可观测告警。  </li>
+<li>风险：缓存膨胀。<br>治理：TTL、最大任务数上限、清理线程。</li>
+</ol>
+<hr>
+<h2 id="9-如何验证"><a href="#9-如何验证" class="headerlink" title="9. 如何验证"></a>9. 如何验证</h2><p>改造是否值得发布前至少对比以下指标：</p>
+<ol>
+<li>查询链路 P95&#x2F;P99 延迟。  </li>
+<li>单机吞吐（task&#x2F;s）。  </li>
+<li>Java 服务内存峰值。  </li>
+<li>线程池排队时长。  </li>
+<li>Kafka 端收齐率、超时率、重试率。</li>
+</ol>
+<hr>
+<h2 id="10-小结"><a href="#10-小结" class="headerlink" title="10. 小结"></a>10. 小结</h2><p>“一个线程查完立刻发 Kafka，不在 Java 端聚合”这条路是可行的，尤其适合高并发和大任务场景。  但关键不在于“去掉 <code>join()</code>”，而在于<strong>把聚合能力产品化</strong>：协议、状态机、幂等、超时、补偿、监控，一个都不能少。  当这些配套齐全后，系统会从“同步收口型”演进为“消息驱动型”，稳定性和扩展性都会上一个台阶。</p>
+<hr>
+<p>明白，那这一节就要“去业务化”，专注 Java 本身的基础与进阶能力，同时又能和你全文的技术深度匹配。建议写成**“工程级 Java 并发与运行时基础”**，而不是零散八股。</p>
+<p>下面是一套<strong>精简但有技术含量的附录内容</strong>，可以直接放文末。</p>
+<hr>
+<h1 id="附录：Java-核心知识点（并发与运行时）"><a href="#附录：Java-核心知识点（并发与运行时）" class="headerlink" title="附录：Java 核心知识点（并发与运行时）"></a>附录：Java 核心知识点（并发与运行时）</h1><h2 id="1-Java-并发模型基础"><a href="#1-Java-并发模型基础" class="headerlink" title="1. Java 并发模型基础"></a>1. Java 并发模型基础</h2><h3 id="1-1-线程与进程"><a href="#1-1-线程与进程" class="headerlink" title="1.1 线程与进程"></a>1.1 线程与进程</h3><ul>
+<li>进程是资源分配单位，线程是执行单位</li>
+<li>Java 中线程由 JVM 映射到操作系统线程（1:1 模型）</li>
+</ul>
+<h3 id="1-2-线程状态"><a href="#1-2-线程状态" class="headerlink" title="1.2 线程状态"></a>1.2 线程状态</h3><p><code>NEW → RUNNABLE → BLOCKED / WAITING / TIMED_WAITING → TERMINATED</code></p>
+<p>重点理解：</p>
+<ul>
+<li><code>BLOCKED</code>：等待锁</li>
+<li><code>WAITING</code>：无期限等待（如 <code>Object.wait()</code>）</li>
+<li><code>TIMED_WAITING</code>：带超时（如 <code>sleep()</code>）</li>
+</ul>
+<hr>
+<h2 id="2-Java-内存模型（JMM）"><a href="#2-Java-内存模型（JMM）" class="headerlink" title="2. Java 内存模型（JMM）"></a>2. Java 内存模型（JMM）</h2><p>JMM 定义线程之间如何<strong>可见性、有序性、原子性</strong>。</p>
+<h3 id="2-1-三大特性"><a href="#2-1-三大特性" class="headerlink" title="2.1 三大特性"></a>2.1 三大特性</h3><ul>
+<li><strong>原子性</strong>：基本操作不可分割（但复合操作不保证）</li>
+<li><strong>可见性</strong>：一个线程修改，另一个线程能看到</li>
+<li><strong>有序性</strong>：指令可能重排序</li>
+</ul>
+<h3 id="2-2-happens-before-规则（核心）"><a href="#2-2-happens-before-规则（核心）" class="headerlink" title="2.2 happens-before 规则（核心）"></a>2.2 happens-before 规则（核心）</h3><p>关键规则：</p>
+<ul>
+<li>线程启动前 → <code>start()</code> 之后可见</li>
+<li>线程结束 → <code>join()</code> 后可见</li>
+<li><code>volatile</code> 写 → 后续读可见</li>
+<li>解锁 → 加锁可见</li>
+</ul>
+<p>本质：JMM 通过 happens-before 建立内存可见性约束</p>
+<hr>
+<h2 id="3-volatile-与-synchronized"><a href="#3-volatile-与-synchronized" class="headerlink" title="3. volatile 与 synchronized"></a>3. <code>volatile</code> 与 <code>synchronized</code></h2><h3 id="3-1-volatile"><a href="#3-1-volatile" class="headerlink" title="3.1 volatile"></a>3.1 <code>volatile</code></h3><p>保证：</p>
+<ul>
+<li>可见性</li>
+<li>禁止指令重排序</li>
+</ul>
+<p>不保证：</p>
+<ul>
+<li>原子性</li>
+</ul>
+<p>适用场景：</p>
+<ul>
+<li>状态标志位</li>
+<li>单次写、多次读</li>
+</ul>
+<hr>
+<h3 id="3-2-synchronized"><a href="#3-2-synchronized" class="headerlink" title="3.2 synchronized"></a>3.2 <code>synchronized</code></h3><p>保证：</p>
+<ul>
+<li>原子性</li>
+<li>可见性</li>
+<li>有序性</li>
+</ul>
+<p>实现机制：</p>
+<ul>
+<li>基于对象监视器（Monitor）</li>
+<li>JVM 层支持（偏向锁、轻量级锁、重量级锁）</li>
+</ul>
+<hr>
+<h2 id="4-Lock-体系（java-util-concurrent-locks）"><a href="#4-Lock-体系（java-util-concurrent-locks）" class="headerlink" title="4. Lock 体系（java.util.concurrent.locks）"></a>4. <code>Lock</code> 体系（<code>java.util.concurrent.locks</code>）</h2><p>相比 <code>synchronized</code>：</p>
+<p>优势：</p>
+<ul>
+<li>可中断（<code>lockInterruptibly</code>）</li>
+<li>可超时（<code>tryLock</code>）</li>
+<li>可公平锁</li>
+</ul>
+<p>核心实现：</p>
+<ul>
+<li><code>ReentrantLock</code></li>
+<li>基于 AQS（AbstractQueuedSynchronizer）</li>
+</ul>
+<hr>
+<h2 id="5-AQS（AbstractQueuedSynchronizer）"><a href="#5-AQS（AbstractQueuedSynchronizer）" class="headerlink" title="5. AQS（AbstractQueuedSynchronizer）"></a>5. AQS（AbstractQueuedSynchronizer）</h2><p>JUC 核心基础组件，支撑：</p>
+<ul>
+<li><code>ReentrantLock</code></li>
+<li><code>CountDownLatch</code></li>
+<li><code>Semaphore</code></li>
+<li><code>FutureTask</code></li>
+</ul>
+<p>核心思想：</p>
+<ul>
+<li>一个 <code>state</code> 状态变量</li>
+<li>一个 FIFO 等待队列（CLH 队列）</li>
+<li>CAS + 自旋 + 阻塞</li>
+</ul>
+<hr>
+<h2 id="6-线程池（ThreadPoolExecutor）"><a href="#6-线程池（ThreadPoolExecutor）" class="headerlink" title="6. 线程池（ThreadPoolExecutor）"></a>6. 线程池（ThreadPoolExecutor）</h2><h3 id="6-1-核心结构"><a href="#6-1-核心结构" class="headerlink" title="6.1 核心结构"></a>6.1 核心结构</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">ThreadPoolExecutor(</span><br><span class="line">  corePoolSize,</span><br><span class="line">  maximumPoolSize,</span><br><span class="line">  keepAliveTime,</span><br><span class="line">  workQueue,</span><br><span class="line">  handler</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<h3 id="6-2-执行流程"><a href="#6-2-执行流程" class="headerlink" title="6.2 执行流程"></a>6.2 执行流程</h3><ol>
+<li>小于 core → 新建线程</li>
+<li>队列未满 → 入队</li>
+<li>队列满 → 扩容线程到 max</li>
+<li>再满 → 拒绝策略</li>
+</ol>
+<h3 id="6-3-拒绝策略"><a href="#6-3-拒绝策略" class="headerlink" title="6.3 拒绝策略"></a>6.3 拒绝策略</h3><ul>
+<li>AbortPolicy（默认）</li>
+<li>CallerRunsPolicy（反压）</li>
+<li>DiscardPolicy</li>
+<li>DiscardOldestPolicy</li>
+</ul>
+<hr>
+<h2 id="7-Future-与-CompletableFuture"><a href="#7-Future-与-CompletableFuture" class="headerlink" title="7. Future 与 CompletableFuture"></a>7. <code>Future</code> 与 <code>CompletableFuture</code></h2><h3 id="7-1-Future"><a href="#7-1-Future" class="headerlink" title="7.1 Future"></a>7.1 <code>Future</code></h3><ul>
+<li>表示异步结果</li>
+<li>通过 <code>get()</code> 阻塞获取</li>
+</ul>
+<h3 id="7-2-CompletableFuture"><a href="#7-2-CompletableFuture" class="headerlink" title="7.2 CompletableFuture"></a>7.2 <code>CompletableFuture</code></h3><p>增强点：</p>
+<ul>
+<li>链式编排</li>
+<li>非阻塞回调</li>
+<li>组合操作</li>
+</ul>
+<p>常用方法：</p>
+<ul>
+<li><code>thenApply</code></li>
+<li><code>thenCompose</code></li>
+<li><code>thenCombine</code></li>
+<li><code>allOf</code></li>
+</ul>
+<hr>
+<h2 id="8-CAS（Compare-And-Swap）"><a href="#8-CAS（Compare-And-Swap）" class="headerlink" title="8. CAS（Compare-And-Swap）"></a>8. CAS（Compare-And-Swap）</h2><p>无锁并发核心机制：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">if (V == A) then V = B</span><br></pre></td></tr></table></figure>
+
+<p>特点：</p>
+<ul>
+<li>原子操作（CPU 指令级）</li>
+<li>无锁（乐观锁）</li>
+</ul>
+<p>问题：</p>
+<ul>
+<li>ABA 问题</li>
+<li>自旋开销</li>
+</ul>
+<hr>
+<h2 id="9-原子类（Atomic）"><a href="#9-原子类（Atomic）" class="headerlink" title="9. 原子类（Atomic）"></a>9. 原子类（Atomic）</h2><p>基于 CAS：</p>
+<ul>
+<li><code>AtomicInteger</code></li>
+<li><code>AtomicLong</code></li>
+<li><code>AtomicReference</code></li>
+</ul>
+<p>高并发优化：</p>
+<ul>
+<li><code>LongAdder</code>（分段累加，减少竞争）</li>
+</ul>
+<hr>
+<h2 id="10-并发容器"><a href="#10-并发容器" class="headerlink" title="10. 并发容器"></a>10. 并发容器</h2><h3 id="10-1-ConcurrentHashMap"><a href="#10-1-ConcurrentHashMap" class="headerlink" title="10.1 ConcurrentHashMap"></a>10.1 <code>ConcurrentHashMap</code></h3><ul>
+<li>分段锁（JDK7）</li>
+<li>CAS + synchronized（JDK8）</li>
+</ul>
+<p>特点：</p>
+<ul>
+<li>高并发读写</li>
+<li>线程安全</li>
+</ul>
+<hr>
+<h3 id="10-2-其他容器"><a href="#10-2-其他容器" class="headerlink" title="10.2 其他容器"></a>10.2 其他容器</h3><ul>
+<li><code>CopyOnWriteArrayList</code>（读多写少）</li>
+<li><code>BlockingQueue</code>（生产者-消费者模型）</li>
+</ul>
+<hr>
+<h2 id="11-阻塞队列（BlockingQueue）"><a href="#11-阻塞队列（BlockingQueue）" class="headerlink" title="11. 阻塞队列（BlockingQueue）"></a>11. 阻塞队列（BlockingQueue）</h2><p>常见实现：</p>
+<ul>
+<li><code>ArrayBlockingQueue</code></li>
+<li><code>LinkedBlockingQueue</code></li>
+<li><code>SynchronousQueue</code></li>
+</ul>
+<p>特点：</p>
+<ul>
+<li>内置阻塞</li>
+<li>支持生产消费模型</li>
+</ul>
+<hr>
+<h2 id="12-线程通信机制"><a href="#12-线程通信机制" class="headerlink" title="12. 线程通信机制"></a>12. 线程通信机制</h2><h3 id="12-1-wait-notify"><a href="#12-1-wait-notify" class="headerlink" title="12.1 wait / notify"></a>12.1 <code>wait / notify</code></h3><ul>
+<li>必须在 synchronized 中使用</li>
+<li>基于对象监视器</li>
+</ul>
+<h3 id="12-2-JUC-替代方案"><a href="#12-2-JUC-替代方案" class="headerlink" title="12.2 JUC 替代方案"></a>12.2 JUC 替代方案</h3><ul>
+<li><code>Condition</code></li>
+<li><code>CountDownLatch</code></li>
+<li><code>CyclicBarrier</code></li>
+</ul>
+<hr>
+<h2 id="13-并发工具类"><a href="#13-并发工具类" class="headerlink" title="13. 并发工具类"></a>13. 并发工具类</h2><h3 id="13-1-CountDownLatch"><a href="#13-1-CountDownLatch" class="headerlink" title="13.1 CountDownLatch"></a>13.1 <code>CountDownLatch</code></h3><ul>
+<li>一次性同步器</li>
+<li>等待多个任务完成</li>
+</ul>
+<h3 id="13-2-CyclicBarrier"><a href="#13-2-CyclicBarrier" class="headerlink" title="13.2 CyclicBarrier"></a>13.2 <code>CyclicBarrier</code></h3><ul>
+<li>可复用屏障</li>
+</ul>
+<h3 id="13-3-Semaphore"><a href="#13-3-Semaphore" class="headerlink" title="13.3 Semaphore"></a>13.3 <code>Semaphore</code></h3><ul>
+<li>控制并发数量</li>
+</ul>
+<hr>
+<h2 id="14-内存与-GC-基础"><a href="#14-内存与-GC-基础" class="headerlink" title="14. 内存与 GC 基础"></a>14. 内存与 GC 基础</h2><h3 id="14-1-内存区域"><a href="#14-1-内存区域" class="headerlink" title="14.1 内存区域"></a>14.1 内存区域</h3><ul>
+<li>堆（Heap）</li>
+<li>栈（Stack）</li>
+<li>方法区（Metaspace）</li>
+</ul>
+<h3 id="14-2-GC-关注点"><a href="#14-2-GC-关注点" class="headerlink" title="14.2 GC 关注点"></a>14.2 GC 关注点</h3><ul>
+<li>对象分配速率</li>
+<li>GC 停顿（STW）</li>
+<li>大对象问题</li>
+</ul>
+<hr>
+<h2 id="15-可见性问题的本质总结"><a href="#15-可见性问题的本质总结" class="headerlink" title="15. 可见性问题的本质总结"></a>15. 可见性问题的本质总结</h2><p>并发问题本质来源于：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">CPU缓存 + 指令重排 + 多线程</span><br></pre></td></tr></table></figure>
+
+<p>解决手段：</p>
+<ul>
+<li>锁（悲观）</li>
+<li>CAS（乐观）</li>
+<li>内存屏障（volatile）</li>
+</ul>
+<hr>
+<blockquote>
+<p>Java 并发体系从 <code>synchronized</code> 到 AQS，再到 <code>CompletableFuture</code>，本质是在不断抽象“线程协作”的复杂性。但在高并发系统中，单机并发模型的优化终究有边界，系统往往需要借助消息队列与分布式状态来进一步解耦与扩展。</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>并发</category>
+        <category>查询</category>
+        <category>kafka</category>
+      </categories>
+      <tags>
+        <tag>并发</tag>
+        <tag>线程</tag>
+      </tags>
+  </entry>
+</search>
